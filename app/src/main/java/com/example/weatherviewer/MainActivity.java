@@ -65,7 +65,6 @@ public class MainActivity extends AppCompatActivity {
             StringRequest stringRequest = new StringRequest(Request.Method.GET, url, new Response.Listener<String>() {
                 @Override
                 public void onResponse(String response) {
-                    //calling api
 
                     try {
                         JSONObject jsonObject = new JSONObject(response);

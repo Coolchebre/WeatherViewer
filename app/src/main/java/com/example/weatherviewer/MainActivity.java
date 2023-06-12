@@ -104,7 +104,7 @@ public class MainActivity extends AppCompatActivity {
                         //find longitude
                         JSONObject object4 = jsonObject.getJSONObject("coord");
                         double long_find = object4.getDouble("lon");
-                        longitude.setText(lat_find+"°  E");
+                        longitude.setText(long_find+"°  E");
 
                         //find humidity
                         JSONObject object5 = jsonObject.getJSONObject("main");

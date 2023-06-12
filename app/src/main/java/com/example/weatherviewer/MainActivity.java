@@ -117,7 +117,7 @@ public class MainActivity extends AppCompatActivity {
 
                         //find sunset
                         JSONObject object7 = jsonObject.getJSONObject("sys");
-                        String sunset_find = object7.getString("sunrise");
+                        String sunset_find = object7.getString("sunset");
                         sunset.setText(sunset_find);
 
                         //find pressure
